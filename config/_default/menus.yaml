@@ -9,8 +9,8 @@ main:
   - name: Features
     url: /#features
     weight: 20
-  - name: Solutions
-    url: /#solutions
+  - name: Projects  
+    url: projects/
     weight: 30
   - name: Resources
     weight: 40
@@ -18,3 +18,9 @@ main:
   - parent: Resources
     name: Blog
     url: blog/
+  - parent: Resources
+    name: Doc
+    url: docs/
+  - name: Contact
+    url: /#contact
+    weight: 60

@@ -10,20 +10,21 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: WINGS Lab
+      text: Wireless Intelligent Networks for FutureG with Security
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
+        text: Github
+        url: https://github.com/WINGS-UHM
+        # icon: rocket-launch
+        icon: brands/github
       secondary_action:
         text: Read the docs
         url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
+      # announcement:
+      #   text: "Announcing the release of version 1."
+      #   link:
+      #     text: "Read more"
+      #     url: "/blog/"
     design:
     #   spacing:
     #     padding: [0, 0, 0, 0]
@@ -85,8 +86,34 @@ sections:
         - name: Swappable Blocks
           icon: rectangle-group
           description: Build your pages with blocks - no coding required!
+  - block: testimonials
+    content:
+      title: ""
+      text: ""
+      items:
+        - name: "Hugo Smith"
+          role: "Marketing Executive at X"
+          # Upload image to `assets/media/` and reference the filename here
+          image: "testimonial-1.jpg"
+          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+    design:
+      spacing:
+        # Reduce bottom spacing so the testimonial appears vertically centered between sections
+        padding: ["6rem", 0, 0, 0]
+  - block: cta-card
+    content:
+      title: Build your future-proof website
+      text: As easy as 1, 2, 3!
+      button:
+        text: Get Started
+        url: https://hugoblox.com/templates/
+    design:
+      card:
+        # Card background color (CSS class)
+        css_class: "bg-primary-300"
+        css_style: ""
   - block: cta-image-paragraph
-    id: solutions
+    id: contact
     content:
       items:
         - title: Build your future-proof website
@@ -116,30 +143,4 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
-    content:
-      title: ""
-      text: ""
-      items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-  - block: cta-card
-    content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-300"
-        css_style: ""
 ---
